@@ -20,13 +20,15 @@
 				- url: https://youtu.be/znfh_00EDZ0?si=Zpibzg_Cya_qUs2B
 
 		
-		
-## ========= 1st way byusing import command ================================= ##
-#### lets say we have already our aws services for example we have ec2-instance 
 
-#### and now we want to import that instance into terraform codes, so see how can do that:
+		
+## ======== 1st way byusing import command ======= ##
+- lets say we have already our aws services for example we have ec2-instance 
+
+- and now we want to import that instance into terraform codes, so see how can do that:
 	
-#### write terraform block & provider block in provider.tf file
+- write terraform block & provider block in provider.tf file
+
 
 #### write import.tf file & define resource block for aws_instance, like this see below:
 ```
@@ -162,9 +164,11 @@ you successful imported/migrated aws services into terraform codes.
 ```
 
 
-#### Noted: same way you can migrate other aws services/resources one by one like this one.
-
-##### ========= upto here 1st way byusing import command ================================= #####
+#### Noted: 
+```
+same way you can migrate other aws services/resources one by one like this one.
+```
+##### ======== upto here 1st way byusing import command ====== #####
 
 
 
@@ -479,7 +483,7 @@ $ terraform output dev_db_rt_id
 terraform output root-module-ouput-block-name		#to see particular output value.
 terraform output				# to see all outputs value from root-module-ouput-blocks.
 ```
-## ==== 2nd: upt here how to `migrate` existing aws infra into `terraform modules` byusing `import command` ===== ##
+## ==== 2nd: upto here how to `migrate` existing aws infra into `terraform modules` byusing `import command` ===== ##
 
 
 
